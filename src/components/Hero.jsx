@@ -1,14 +1,15 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
 const Hero = () => {
-    useEffect(() => {
-        Aos.init();
-      }, []);
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div>Hero</div>
-  )
-}
+    <section id="Home">      
+    
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
